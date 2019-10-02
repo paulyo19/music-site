@@ -1,0 +1,38 @@
+body{
+    background: #1C1C1C;
+}
+
+header {
+    background: #1C1C1C;
+}
+
+header .logo {
+    display: inline-block;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center
+}
+
+header .logo img{
+    width: 60px;
+    align-items: center;
+}
+header .menu{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+header .menu a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+header .menu a :active{
+    color: red;
+}
+header .menu a:hover{
+    color: red;
+}
