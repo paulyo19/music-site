@@ -137,6 +137,12 @@ header .menu a .active{
   }
 
 /* news section */
+.container  {
+  display: flex;
+  flex-direction: row;
+}
+
 .news-section img{
-  width: 20%;
+  width: 33.33%;
+  
 }
