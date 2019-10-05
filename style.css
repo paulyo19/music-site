@@ -137,12 +137,27 @@ header .menu a .active{
   }
 
 /* news section */
-.container  {
+.news-section .container  {
+  margin-top: 25px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
+  padding: 100px;
 }
 
-.news-section img{
-  width: 33.33%;
-  
+.news-section .container img{
+  width: 80%;
+  height: auto;
+  position: relative;
 }
+
+.news-section .container h2{
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.news-section .container h2:hover{
+  border: 0 0 10px 0;
+  border-color: red;
+}
+
