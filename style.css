@@ -152,12 +152,12 @@ header .menu a .active{
 .news-section .container img{
   position: relative;
   float: left;
-  width:  440px;
-  height: 300px;
+  width:  400px;
+  height: 250px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
-  padding: 20px;
+  padding: 5px;
 }
 
 .news-section .container h2{
