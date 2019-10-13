@@ -54,6 +54,7 @@ header .menu a .active{
     position: relative;
     margin: auto;
     width: 100%;
+    height: 20%;
   }
   
   /* Caption text */
@@ -177,4 +178,15 @@ header .menu a .active{
 
 .news-section .container i {
   color: rgb(139, 139, 139);
+}
+
+.dates {
+  
+}
+
+.dates a{
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 6px solid red;
 }
